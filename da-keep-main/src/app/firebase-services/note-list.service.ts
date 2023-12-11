@@ -15,8 +15,7 @@ export class NoteListService {
   items;
 
   unsubList;
-  unsubSingle;
-
+  
   firestore: Firestore = inject(Firestore);
 
   constructor() {
